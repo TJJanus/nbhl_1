@@ -1,0 +1,26 @@
+.header {
+    border: 3px solid blue;
+    padding: 1%;
+    background-color: black;
+}
+
+.header nav {
+    display: flex;
+    
+    justify-content: center;
+}
+
+.header-image {
+    padding-bottom: 3.5%;
+}
+
+a {
+margin-left: 5px;
+border: 3px solid black;
+color: white;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
