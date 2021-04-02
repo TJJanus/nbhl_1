@@ -1,3 +1,55 @@
 .header {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
+    display: flex;
+    height: 10vh;
+    justify-content: flex-start;
+    align-content: center;
 }
+
+/* an individual game on the boxscore bar*/
+
+.box {
+    /* border: 2px solid purple; */
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    width: 180px;
+    padding: 0px 4px;
+    background-color: grey;
+    
+}
+
+
+
+.teams {
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    padding-left: 10px 10px;
+    
+    
+}
+
+.teams p {
+    margin: auto;
+    padding: 2px 0px;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+.date {
+    margin: auto;
+    font-weight: bold;
+    padding-left: 22px;
+    
+    
+}
+
+.time { 
+    margin: auto;
+    padding: 0px 3px;
+}
+
+
