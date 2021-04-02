@@ -12,52 +12,53 @@ function Navbar() {
                 <div className='image'>
                 <img src={logo}></img>
                 </div>
+                
                 <Link to='/home'>
-                    <button className='nav-button'>Home</button>
+                    <div className='nav-button'> <h3>Home</h3></div>
                 </Link>
 
                 <Link to='/about'>
-                    <button className='nav-button'>About</button>
+                    <div className='nav-button'><h3>About</h3></div>
                 </Link>
 
                 <Link to='/news'>
-                    <button className='nav-button'>News</button>
+                    <div className='nav-button'><h3>News</h3></div>
                 </Link>
 
                 <Link to='/divisons'>
-                    <button className='nav-button'>Divisions</button>
+                    <div className='nav-button'><h3>Divisions</h3></div>
                 </Link>
 
                 <Link to='/teams'>
-                    <button className='nav-button'>Teams</button>
+                    <div className='nav-button'><h3>Teams</h3></div>
                 </Link>
 
                 <Link to='/schedule'>
-                    <button className='nav-button'>Schedule</button>
+                    <div className='nav-button'><h3>Schedule</h3></div>
                 </Link>
 
                 <Link to='/standings'>
-                    <button className='nav-button'>Standings</button>
+                    <div className='nav-button'><h3>Standings</h3></div>
                 </Link>
 
                 <Link to='/stats'>
-                    <button className='nav-button'>Stats</button>
+                    <div className='nav-button'><h3>Stats</h3></div>
                 </Link>
 
                 <Link to='/partners'>
-                    <button className='nav-button'>Partners</button>
+                    <div className='nav-button'><h3>Partners</h3></div>
                 </Link>
 
                 <Link to='/affiliates'>
-                    <button className='nav-button'>Affiliates</button>
+                    <div className='nav-button'><h3>Affiliates</h3></div>
                 </Link>
 
                 <Link to='/contact'>
-                    <button className='nav-button'>Contact</button>
+                    <div className='nav-button'><h3>Contact</h3></div>
                 </Link>
 
                 <Link to='/shop'>
-                    <button className='nav-button'>Shop</button>
+                    <div className='nav-button'><h3>Shop</h3></div>
                 </Link>
             </nav>
         </div>
